@@ -53,7 +53,7 @@ const Projects = () => {
                             idx={15}
                         />
                     </h1>
-                    <div>{ renderProjects(projectsData.projects) }</div>
+                <div>{ renderProjects(projectsData.projects) }</div>
             </div>
             <Loader type="pacman" />
         </>
