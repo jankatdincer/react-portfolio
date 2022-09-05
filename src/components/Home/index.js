@@ -8,8 +8,8 @@ import './index.scss';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
-    const nameArray = [ 'a', 'n', 'k', 'a', 't',' ', 'D', 'i', 'n', 'ç', 'e', 'r']
-    const jobArray = ['s', 'e', 'n', 'i', 'o', 'r',' ', 'c','o','m','p','u','t','e','r',' ','s','c','i','e','n','c','e',' ','s','t','u','d','e','n','t','.']
+    const nameArray =  "ankat Dinçer".split("")
+    const jobArray =  "senior computer science student.".split("")
 
 
     useEffect(() =>{
